@@ -1,6 +1,6 @@
 # Quote-Today
 
-A simple Watch OS app which display a random quote by fetching the quote from the quote API
+A simple Watch OS app using Swift and WatchKit which display a random quote by fetching the quote from the quote API
 
 ![Screenshot 2020-07-19 at 12 12 52 PM](https://user-images.githubusercontent.com/51410810/87869133-0b11ba80-c9bb-11ea-80ed-4d4286744caa.png)
 ![Screenshot 2020-07-19 at 12 26 49 PM](https://user-images.githubusercontent.com/51410810/87869148-1fee4e00-c9bb-11ea-8935-6646c352a6e6.png)
