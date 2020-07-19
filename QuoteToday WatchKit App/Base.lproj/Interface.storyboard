@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="17132" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17105"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="17031"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="QuoteToday_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label width="102" height="34" alignment="right" verticalAlignment="bottom" text="Name here" textAlignment="center" numberOfLines="2" id="2u3-8z-kht">
+                            <fontDescription key="font" type="system" pointSize="12"/>
+                        </label>
+                        <label width="136" height="114" alignment="center" text="Todays quote" textAlignment="center" numberOfLines="10" id="kca-DD-vqR">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="font" type="italicSystem" weight="bold" pointSize="12"/>
+                        </label>
+                    </items>
+                    <connections>
+                        <outlet property="quoteauthorlbl" destination="2u3-8z-kht" id="9Tc-Ud-2Y9"/>
+                        <outlet property="quotelbl" destination="kca-DD-vqR" id="2Ye-NM-gIa"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-109" y="34.5"/>
+        </scene>
+    </scenes>
+</document>

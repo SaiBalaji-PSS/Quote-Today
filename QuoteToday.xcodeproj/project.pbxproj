@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4E8702624C4167600E15877 /* QuoteToday WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E4E8702524C4167600E15877 /* QuoteToday WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E4E8702C24C4167600E15877 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4E8702A24C4167600E15877 /* Interface.storyboard */; };
+		E4E8702E24C4167700E15877 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4E8702D24C4167700E15877 /* Assets.xcassets */; };
+		E4E8703524C4167700E15877 /* QuoteToday WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E4E8703424C4167700E15877 /* QuoteToday WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E4E8703A24C4167700E15877 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E8703924C4167700E15877 /* InterfaceController.swift */; };
+		E4E8703C24C4167700E15877 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E8703B24C4167700E15877 /* ExtensionDelegate.swift */; };
+		E4E8703E24C4167800E15877 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4E8703D24C4167800E15877 /* Assets.xcassets */; };
+		E4E8705024C4179900E15877 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E8704F24C4179900E15877 /* File.swift */; };
+		E4E8705224C4185F00E15877 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E8705124C4185F00E15877 /* NetworkService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4E8702724C4167600E15877 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4E8701B24C4167600E15877 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4E8702424C4167600E15877;
+			remoteInfo = "QuoteToday WatchKit App";
+		};
+		E4E8703624C4167700E15877 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4E8701B24C4167600E15877 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4E8703324C4167700E15877;
+			remoteInfo = "QuoteToday WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E4E8704524C4167800E15877 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E4E8703524C4167700E15877 /* QuoteToday WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4E8704924C4167800E15877 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				E4E8702624C4167600E15877 /* QuoteToday WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E4E8702124C4167600E15877 /* QuoteToday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuoteToday.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4E8702524C4167600E15877 /* QuoteToday WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QuoteToday WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4E8702B24C4167600E15877 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		E4E8702D24C4167700E15877 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4E8702F24C4167700E15877 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4E8703424C4167700E15877 /* QuoteToday WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "QuoteToday WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4E8703924C4167700E15877 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		E4E8703B24C4167700E15877 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		E4E8703D24C4167800E15877 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4E8703F24C4167800E15877 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4E8704F24C4179900E15877 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		E4E8705124C4185F00E15877 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4E8703124C4167700E15877 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4E8701A24C4167600E15877 = {
+			isa = PBXGroup;
+			children = (
+				E4E8702924C4167600E15877 /* QuoteToday WatchKit App */,
+				E4E8703824C4167700E15877 /* QuoteToday WatchKit Extension */,
+				E4E8702224C4167600E15877 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4E8702224C4167600E15877 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4E8702124C4167600E15877 /* QuoteToday.app */,
+				E4E8702524C4167600E15877 /* QuoteToday WatchKit App.app */,
+				E4E8703424C4167700E15877 /* QuoteToday WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4E8702924C4167600E15877 /* QuoteToday WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				E4E8704E24C4178B00E15877 /* Model */,
+				E4E8704D24C4178300E15877 /* Service */,
+				E4E8702A24C4167600E15877 /* Interface.storyboard */,
+				E4E8702D24C4167700E15877 /* Assets.xcassets */,
+				E4E8702F24C4167700E15877 /* Info.plist */,
+			);
+			path = "QuoteToday WatchKit App";
+			sourceTree = "<group>";
+		};
+		E4E8703824C4167700E15877 /* QuoteToday WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E4E8703924C4167700E15877 /* InterfaceController.swift */,
+				E4E8703B24C4167700E15877 /* ExtensionDelegate.swift */,
+				E4E8703D24C4167800E15877 /* Assets.xcassets */,
+				E4E8703F24C4167800E15877 /* Info.plist */,
+			);
+			path = "QuoteToday WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		E4E8704D24C4178300E15877 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				E4E8705124C4185F00E15877 /* NetworkService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		E4E8704E24C4178B00E15877 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E4E8704F24C4179900E15877 /* File.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4E8702024C4167600E15877 /* QuoteToday */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4E8704A24C4167800E15877 /* Build configuration list for PBXNativeTarget "QuoteToday" */;
+			buildPhases = (
+				E4E8701F24C4167600E15877 /* Resources */,
+				E4E8704924C4167800E15877 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4E8702824C4167600E15877 /* PBXTargetDependency */,
+			);
+			name = QuoteToday;
+			productName = QuoteToday;
+			productReference = E4E8702124C4167600E15877 /* QuoteToday.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		E4E8702424C4167600E15877 /* QuoteToday WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4E8704624C4167800E15877 /* Build configuration list for PBXNativeTarget "QuoteToday WatchKit App" */;
+			buildPhases = (
+				E4E8702324C4167600E15877 /* Resources */,
+				E4E8704524C4167800E15877 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4E8703724C4167700E15877 /* PBXTargetDependency */,
+			);
+			name = "QuoteToday WatchKit App";
+			productName = "QuoteToday WatchKit App";
+			productReference = E4E8702524C4167600E15877 /* QuoteToday WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		E4E8703324C4167700E15877 /* QuoteToday WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4E8704224C4167800E15877 /* Build configuration list for PBXNativeTarget "QuoteToday WatchKit Extension" */;
+			buildPhases = (
+				E4E8703024C4167700E15877 /* Sources */,
+				E4E8703124C4167700E15877 /* Frameworks */,
+				E4E8703224C4167700E15877 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QuoteToday WatchKit Extension";
+			productName = "QuoteToday WatchKit Extension";
+			productReference = E4E8703424C4167700E15877 /* QuoteToday WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4E8701B24C4167600E15877 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					E4E8702024C4167600E15877 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					E4E8702424C4167600E15877 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					E4E8703324C4167700E15877 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = E4E8701E24C4167600E15877 /* Build configuration list for PBXProject "QuoteToday" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4E8701A24C4167600E15877;
+			productRefGroup = E4E8702224C4167600E15877 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4E8702024C4167600E15877 /* QuoteToday */,
+				E4E8702424C4167600E15877 /* QuoteToday WatchKit App */,
+				E4E8703324C4167700E15877 /* QuoteToday WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4E8701F24C4167600E15877 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4E8702324C4167600E15877 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4E8702E24C4167700E15877 /* Assets.xcassets in Resources */,
+				E4E8702C24C4167600E15877 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4E8703224C4167700E15877 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4E8703E24C4167800E15877 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4E8703024C4167700E15877 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4E8703C24C4167700E15877 /* ExtensionDelegate.swift in Sources */,
+				E4E8705024C4179900E15877 /* File.swift in Sources */,
+				E4E8705224C4185F00E15877 /* NetworkService.swift in Sources */,
+				E4E8703A24C4167700E15877 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4E8702824C4167600E15877 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4E8702424C4167600E15877 /* QuoteToday WatchKit App */;
+			targetProxy = E4E8702724C4167600E15877 /* PBXContainerItemProxy */;
+		};
+		E4E8703724C4167700E15877 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4E8703324C4167700E15877 /* QuoteToday WatchKit Extension */;
+			targetProxy = E4E8703624C4167700E15877 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E4E8702A24C4167600E15877 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4E8702B24C4167600E15877 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4E8704024C4167800E15877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E4E8704124C4167800E15877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4E8704324C4167800E15877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RRW6B7FDKR;
+				INFOPLIST_FILE = "QuoteToday WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EnigmaBit.QuoteToday.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		E4E8704424C4167800E15877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RRW6B7FDKR;
+				INFOPLIST_FILE = "QuoteToday WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EnigmaBit.QuoteToday.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		E4E8704724C4167800E15877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RRW6B7FDKR;
+				IBSC_MODULE = QuoteToday_WatchKit_Extension;
+				INFOPLIST_FILE = "QuoteToday WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = EnigmaBit.QuoteToday.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		E4E8704824C4167800E15877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RRW6B7FDKR;
+				IBSC_MODULE = QuoteToday_WatchKit_Extension;
+				INFOPLIST_FILE = "QuoteToday WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = EnigmaBit.QuoteToday.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		E4E8704B24C4167800E15877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RRW6B7FDKR;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EnigmaBit.QuoteToday;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E4E8704C24C4167800E15877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RRW6B7FDKR;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EnigmaBit.QuoteToday;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4E8701E24C4167600E15877 /* Build configuration list for PBXProject "QuoteToday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4E8704024C4167800E15877 /* Debug */,
+				E4E8704124C4167800E15877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4E8704224C4167800E15877 /* Build configuration list for PBXNativeTarget "QuoteToday WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4E8704324C4167800E15877 /* Debug */,
+				E4E8704424C4167800E15877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4E8704624C4167800E15877 /* Build configuration list for PBXNativeTarget "QuoteToday WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4E8704724C4167800E15877 /* Debug */,
+				E4E8704824C4167800E15877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4E8704A24C4167800E15877 /* Build configuration list for PBXNativeTarget "QuoteToday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4E8704B24C4167800E15877 /* Debug */,
+				E4E8704C24C4167800E15877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4E8701B24C4167600E15877 /* Project object */;
+}
